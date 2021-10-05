@@ -1,0 +1,59 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+  
+content, 
+footer {
+	float: right;
+	width: 80%;
+}
+
+p {
+	width: 90%;
+}
+
+nav > ul {
+	width: 15%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: fixed;
+	background-color: rgb(50, 50, 50);
+	border-radius: 3px;
+}
+
+nav > ul li {
+	width: 100%;
+	border: solid 1px black;
+	transition: 1s;
+}
+
+nav > ul li:hover {
+	background-color: lightgray;
+	transition: 1s;
+}
+
+nav > ul a {
+	display: block;
+	color: white;
+	width: 100%;
+	line-height: 1.5em;
+	padding: 3px;
+	margin: 2px;
+	text-decoration: none;
+	font-size: 1.3em;
+	transition: 1s;
+}
+
+nav > ul a:hover {
+	color: black;
+	transition: 1s;
+}
